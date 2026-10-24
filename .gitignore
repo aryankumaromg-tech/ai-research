@@ -1,0 +1,24 @@
+# secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# dependencies
+node_modules
+
+# next.js
+.next/
+out/
+next-env.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+
+# vercel
+.vercel
+
+# drizzle
+drizzle/
